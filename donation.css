@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+.donate-section{
+    background: url("photo1.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+.donation-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    opacity: 1;
+    height: 80vh;
+    width: 50vw;
+    background-color: rgba(37, 36, 36, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+.heading{
+    text-align: center;
+    color: rgba(230, 152, 9, 0.829);
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.description{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 120%;
+}
